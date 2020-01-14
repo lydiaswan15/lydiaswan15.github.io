@@ -1,7 +1,7 @@
 
-var d = new Date();
-var year = d.getFullYear();
+const d = new Date();
+const year = d.getFullYear();
 
-var output = year + " | Lydia Swanson | ";
+const output = year + " | Lydia Swanson | ";
 
 document.getElementById("bottomSection").textContent = output;
