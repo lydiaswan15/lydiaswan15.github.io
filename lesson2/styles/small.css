@@ -1,0 +1,17 @@
+/* html selectors */
+body{
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+}  
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 1em;
+}
+
+/* class comments */
+
+/* id selectors */
