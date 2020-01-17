@@ -8,8 +8,10 @@ is 64em. */
         padding-left: 90%;
     }
 
-    
-
+    h1 {
+        font-size: 5xem;
+        max-width: 100%
+    }
     
     /* class comments */
 
