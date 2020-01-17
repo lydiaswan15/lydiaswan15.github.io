@@ -1,6 +1,9 @@
 @media only screen and (min-width: 32.5em) {
 
     /* html selectors */
+    header{
+        padding-left: 80%;
+    }
    
     /* class comments */
 

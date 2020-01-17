@@ -3,14 +3,32 @@ is 64em. */
 
 @media only screen and (min-width: 64em) {
     /* html selectors */
-   
+
+    header {
+        padding-left: 90%;
+    }
+
+    
+
+    
     /* class comments */
+
+    .head {
+        padding-top: 5em;
+        padding-bottom: 3em;
+        padding-left: 4em;
+    }
+   
 
     /* id selectors */
     #grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 4em;
     }
+
+
+
 
 
 }
