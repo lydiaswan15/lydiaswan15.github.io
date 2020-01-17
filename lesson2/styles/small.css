@@ -1,8 +1,12 @@
 /* html selectors */
 body{
     font-family: 'Public Sans', sans-serif;
-    text-align: center;
 }  
+
+header {
+    text-align: center;
+    margin-top: 3em; margin-bottom: 3em;
+}
 
 img {
     max-width: 100%;
@@ -12,6 +16,34 @@ section {
     padding: 1em;
 }
 
+a {
+    color: white;
+    font-size: .7em;
+    margin-top: 0px;
+}
+
+p {
+    background-color: #171738;
+    color: white;
+    padding: 2em;
+    margin-top: 0px;
+}
+
+
+
 /* class comments */
+
+.topSection{
+    color: white;
+    background-color: #171738;
+    padding-left: 1em;
+    padding-top: .5em; 
+    padding-bottom: 2em;
+    border-top-left-radius: 10px; border-top-right-radius: 10px;
+}
+
+
+
+
 
 /* id selectors */
