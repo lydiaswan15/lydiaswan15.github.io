@@ -65,6 +65,10 @@ img{
     padding-bottom: 10em;
 }
 
+.leftAlignedContent #scenario1, #scenario2, #scenario3, #scenario4, #scenario5{
+    padding: 1em;
+}
+
 /* ID Selectors */
 
 #grid {
@@ -86,5 +90,9 @@ img{
 
 #logo{
     width: 50px;
+}
+
+#scenarios h2{
+    padding-top: 2em;
 }
 
