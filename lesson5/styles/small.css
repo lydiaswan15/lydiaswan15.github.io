@@ -19,7 +19,7 @@ h1{
 
 header section p{
     margin: 30px;
-    margin-top: 25px;
+    margin-top: 30px;
     font-size: .8em;
     
 }
@@ -133,6 +133,10 @@ main section{
 
 #contactImg{
     display:none;
+}
+
+#referance{
+    font-size: .5em;
 }
 
 
