@@ -7,8 +7,10 @@ body {
     margin: 0px;
 }
 
-h1, h2, h3{
-    font-family:
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 3.5em;
 }
 
 header {
