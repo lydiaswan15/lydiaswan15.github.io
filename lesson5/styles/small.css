@@ -10,7 +10,15 @@ body {
 h1{
     font-family: 'Playfair Display', serif;
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 2.7em;
+    margin: 30px;
+    margin-right: 2em;
+    padding-top: 1em;
+}
+
+header section p{
+    margin: 30px;
+    
 }
 
 header {
@@ -69,6 +77,7 @@ main section{
 
 .navigation li{
     display: none;
+    
 }
 
 .navigation li:first-child{
