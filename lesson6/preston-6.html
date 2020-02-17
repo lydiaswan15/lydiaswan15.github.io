@@ -12,8 +12,7 @@
     <link rel = "styleSheet" href="styles/small.css">
     <link rel = "styleSheet" href="styles/medium.css">
     <link rel = "styleSheet" href="styles/large.css">
-    <script src = "scripts/date.js"></script>
-    <script src = "scripts/toggleMenu.js"></script>
+   
 
 </head>
 <body>
@@ -30,6 +29,7 @@
             <li><a href = "#" >Fish Haven</a></li>
             <li><a href = "#" >Storm Center</a></li>
             <li><a href = "#" >Gallery</a></li>
+
         </ul>
     </nav>
 
@@ -45,10 +45,20 @@
         <section class = "weatherSummary">
             <section id = "weatherSummaryText">
                     <h3>Weather Summary</h3>
-                    <p>Currently</p>
-                    <p>High</p>
-                    <p>Humidity</p>
-                    <p>Wind Speed</p>
+                    <div>
+                        <span>Current Temp:</span>
+                        <span id = 'current-temp'></span>
+                    </div>
+
+                    <div>
+                        <span>Wind Chill:</span>
+                        <span id = 'wind-chill'></span>
+                    </div>
+
+                    <div>
+                        <span>Wind Speed:</span>
+                        <span id = 'wind-speed'></span>
+                    </div>
             </section>
            <!-- <img src = "images/flower-bloom-during-sunrise-633814 (1).jpg" alt = "Photo of a flower in the sunrise"> -->
            <picture>
@@ -82,5 +92,16 @@
         <div id = "date">info</div>
     </footer>
 
+    <script src = "scripts/date.js"></script>
+    <script src = "scripts/toggleMenu.js"></script>
+    <script src = "scripts/temps.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load(){
+
+        }
+    </script>
+    <script src="scripts/webFontLoad.js"></script>
 </body>
 </html>
