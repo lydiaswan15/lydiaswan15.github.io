@@ -46,6 +46,10 @@
         padding-left: 40%;
     }
 
+    #cities{
+        flex-direction: row;
+    }
+
 
 
 }

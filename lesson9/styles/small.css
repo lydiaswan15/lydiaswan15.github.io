@@ -141,4 +141,9 @@ main section{
     font-size: .8em;   
 }
 
+#cities{
+    display: flex;
+    flex-direction: column;
+}
+
 
