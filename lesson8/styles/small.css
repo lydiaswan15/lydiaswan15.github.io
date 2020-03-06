@@ -142,3 +142,45 @@ main section{
 }
 
 
+
+
+/* Storm Center */
+/* HTML */
+form{
+    padding-top: 4em;
+    margin-left: 30px; padding-right: 30px;
+}
+
+form div{
+    padding-bottom: 2em;
+}
+
+label{
+    display: block;
+    text-align: left;
+    padding: .2em;
+    
+}
+input{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+input[type=submit], input[type=reset]{
+    margin: .5em;
+}
+/* Class */
+
+/* ID */
+
+#stormSeverity{
+    width: 50%;
+    display: inline;
+    justify-content: center;  
+}
+
+
+
+
