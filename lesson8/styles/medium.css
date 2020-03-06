@@ -47,5 +47,37 @@
     }
 
 
+/* Storm Center */
+/* HTML */
+form{
+    padding-top: 10em;
+    margin-left: 20%; padding-right: 20%;
+}
+
+label{
+    display: inline;
+    text-align: left;
+    padding: .2em;
+}
+
+input[type=submit], input[type=reset]{
+    margin: .5em;
+    width: 46%;
+}
+
+form div{
+    text-align: left;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    border: solid 1px #ccc;
+    margin: .5em;
+    border-radius: 4px;
+}
+/* Class */
+
+/* ID */
 
 }
