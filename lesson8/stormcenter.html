@@ -16,18 +16,15 @@
 
 </head>
 <body>
-    <section id = "banner">
-        <p>Pancakes on Saturday! Enter more text and all that stuff.</p>
-    </section>
 
     <nav>
         <ul class = "navigation">
             <li> <a href = "#" onclick="toggleMenu()">&#9776;</a></li>
-            <li><a href = "#" class = "active">Home</a></li>
+            <li><a href = "#">Home</a></li>
             <li><a href = "#">Preston</a></li>
             <li><a href = "#" >Soda Springs</a></li>
             <li><a href = "#" >Fish Haven</a></li>
-            <li><a href = "#" >Storm Center</a></li>
+            <li><a href = "stormcenter.html" class = "active" >Storm Center</a></li>
             <li><a href = "gallery.html" >Gallery</a></li>
 
         </ul>
@@ -40,8 +37,8 @@
     </header>
 
     <main>
-       <form action="thanks.html" method="GET">
-           <div>
+       <form action="thanks.html" method="GET" >
+        <div>
             <label for="fullName">Full Name: </label>
             <input type = "text" id = "fullName" name = "fullName" required>
         </div>
@@ -74,6 +71,33 @@
             oninput = "adjustRating(this.value)" onchange="adjustRating(this.value)">
             <span id="rating"></span>
         </div>
+
+        <div>
+            <label for="stormRegion">Storm Region</label>
+            <select name="stormRegion" id="stormRegion">
+                <option selected = "selected" value="selectRegion" disabled>Select Region</option>
+                <option value="stormHaven">Preston</option>
+                <option value="stormHaven">Storm Haven</option>
+                <option value="fishHaven">Fish Haven</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="inDangerLevel">User in Danger Level</label>
+            <input type="radio" name = "inDangerLevel" id = "inDangerLevelYes">
+            <label for="inDangerLevel">Yes</label>
+            <input type="radio" name = "inDangerLevel" id = "inDangerLevelMaybe">
+            <label for="inDangerLevel">Maybe</label>
+            <input type="radio" name = "inDangerLevel" id = "inDangerLevelNo">
+            <label for="inDangerLevel">No</label>
+        </div>
+
+        <div>
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </div>
+
+
         
 
         <div>
