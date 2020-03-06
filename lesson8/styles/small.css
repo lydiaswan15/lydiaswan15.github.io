@@ -148,7 +148,7 @@ main section{
 /* HTML */
 form{
     padding-top: 4em;
-    margin-left: 30px; padding-right: 30px;
+    margin-left: 30px; margin-right: 50px;
 }
 
 form div{
@@ -170,6 +170,14 @@ input{
 
 input[type=submit], input[type=reset]{
     margin: .5em;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    border: solid 1px #ccc;
+    margin: .5em;
+    border-radius: 4px;
 }
 /* Class */
 
