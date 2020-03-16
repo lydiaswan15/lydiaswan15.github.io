@@ -1,0 +1,41 @@
+/* HTML */
+
+article{
+    border: solid rgb(131, 125, 120) .5px;
+    margin-bottom: 1em;
+    background-color:white;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 2px 2px 20px 2px gray;
+    margin: 10px;
+    padding: 1em;
+    margin-bottom: 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* Class  Selectors*/
+
+/* ID  Selectors */
+
+
+@media only screen and (min-width: 32em) {
+    #towns{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #towns{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
