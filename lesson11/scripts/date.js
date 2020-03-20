@@ -32,12 +32,19 @@ let d = new Date;
         day = day + i;
         if(day == 7){day = 0;}
         switch(day){
+            case 7: day = "Sunday"; 
             case 0: day = "Sunday"; break;
+            case 8: day = "Monday"; 
             case 1: day = "Monday"; break;
+            case 9: day = "Tuesday"; 
             case 2: day = "Tuesday"; break;
+            case 10: day = "Wednesday"; 
             case 3: day = "Wednesday"; break;
+            case 11: day = "Thursday"; 
             case 4: day = "Thursday"; break;
+            case 12: day = "Friday"; 
             case 5: day = "Friday"; break;
+            case 13: day = "Saturday"; 
             case 6: day = "Saturday"; break;
         }
         const dayID = "day" + i + "Name";

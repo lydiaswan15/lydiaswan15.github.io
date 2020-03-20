@@ -101,6 +101,10 @@ main section{
     padding: 0em;
     margin: .1em; 
 }
+
+.preston{
+    margin-bottom: 1em;
+}
 /* ID Selectors */
 
 #logo{
@@ -108,9 +112,8 @@ main section{
 }
 
 #weatherSummaryText{
-    position: absolute;
-    color: white;
-    margin: 7em 0em 0em 2em;
+
+    margin-bottom: 30px;
 }
 
 #weatherSummaryText p {
@@ -144,6 +147,10 @@ main section{
 #cities{
     display: flex;
     flex-direction: column;
+}
+
+#stormCenter{
+    margin: 2em;
 }
 
 

@@ -22,7 +22,8 @@
     }
 
     .fiveForcast{
-        display: flex; 
+        display: inline-block;
+        text-align: center; 
     }
 
 
@@ -48,6 +49,14 @@
 
     #cities{
         flex-direction: row;
+    }
+
+    #weatherSummaryText{
+        position: absolute;
+        color: white;
+        margin: 7em;
+        background-color: black;
+        padding: 2em;
     }
 
 
