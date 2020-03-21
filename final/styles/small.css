@@ -1,0 +1,156 @@
+/* HTML Selectors */
+
+body {
+    background-color: #DBE5E3;
+    font-family: 'Heebo: ', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 2.7em;
+    margin: 30px;
+    margin-right: 2em;
+    margin-bottom: 0px;
+    padding-top: 1em;
+}
+
+header {
+    background-color: white;
+}
+
+header section{
+    display: inline-block;
+
+}
+
+img {
+    max-width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0em;
+    background-color: white; 
+    margin: 0px;
+}
+
+nav ul li{
+    padding: .5em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: .5em;
+}
+
+
+
+a:hover{
+    text-decoration: underline #F79F47;
+}
+
+footer{
+    background-color: #181C28; 
+    padding: 2em;
+    text-align: center;
+    color: white;
+}
+
+main{
+    text-align: center;
+}
+
+main section{
+    padding: 1em;
+}
+
+/* Class */
+
+.active {
+    background-color: #F79F47;
+}
+
+.navigation li{
+    display: none;
+    
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.responsive li{
+    display: block;
+    justify-content: center;
+
+}
+
+.fiveForcast{
+    display: none;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    font-size: .7em; 
+}
+.contact #contactText p{
+    padding: 0em;
+    margin: .1em; 
+}
+
+.preston{
+    margin-bottom: 1em;
+}
+/* ID Selectors */
+
+#logo{
+    max-width: 75px;
+}
+
+#weatherSummaryText{
+
+    margin-bottom: 30px;
+}
+
+#weatherSummaryText p {
+    display: float;
+    text-align: left;
+    margin: 0px;
+}
+
+#banner{
+    display:none;
+    background-color:#F7BA44;
+    justify-content: center;
+    padding: 2em;
+}
+
+#contactImg{
+    display:none;
+}
+
+#referance{
+    font-size: .7em;
+    margin-right: 30px; margin-left: 30px;
+}
+
+#scripture {
+    margin-right: 30px; margin-left: 30px;
+    margin-top: 30px;
+    font-size: .8em;   
+}
+
+#cities{
+    display: flex;
+    flex-direction: column;
+}
+
+#stormCenter{
+    margin: 2em;
+}
+
+
