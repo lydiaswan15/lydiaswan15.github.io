@@ -1,4 +1,4 @@
-//Temp information
+//Temp information for Preston
 const weatherURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=ab49a57826e1d796047632c5f039fe78';
 fetch(weatherURL)
     .then((response) => response.json())
@@ -34,10 +34,18 @@ fetch(weatherURL)
             const imgURL = 'https://openweathermap.org/img/w/' + jsonObject.list[i].weather[0].icon + '.png';
             document.querySelector(imgId).setAttribute('src', imgURL);
             document.querySelector(imgId).setAttribute('alt', jsonObject.list[i].weather[0].main);
-            document.querySelector(pId).innerHTML = jsonObject.list[i].main.temp + ' \u00B0 F'
-       
+            document.querySelector(pId).innerHTML = jsonObject.list[i].main.temp + ' \u00B0 F';  
         }
 
 
     })
+
+    const prestonEventsURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+    fetch(prestonEventsURL)
+        .then((response) => response.json())
+        .then((jsonObject) => {
+            document.querySelector('#prestonEvents').innerHTML = jsonObject.towns[3].events;
+    
+        })
+
 
