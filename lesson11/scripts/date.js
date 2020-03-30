@@ -47,7 +47,7 @@ let d = new Date;
             case 13: day = "Saturday"; 
             case 6: day = "Saturday"; break;
         }
-        const dayID = "day" + i + "Name";
+        let dayID = "day" + i + "Name";
 
         document.getElementById(dayID).innerHTML = day;
 
