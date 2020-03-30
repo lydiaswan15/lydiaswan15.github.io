@@ -51,6 +51,7 @@ let d = new Date;
 
         console.log(dayID);
         
+        
         document.getElementById(dayID).innerHTML = day;
 
         day = d.getDay();

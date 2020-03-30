@@ -1,5 +1,5 @@
 //Temp information for Preston
-const weatherURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=ab49a57826e1d796047632c5f039fe78';
+const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=ab49a57826e1d796047632c5f039fe78';
 fetch(weatherURL)
     .then((response) => response.json())
     .then((jsonObject) => {
