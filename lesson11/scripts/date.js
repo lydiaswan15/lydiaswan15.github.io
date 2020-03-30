@@ -47,9 +47,9 @@ let d = new Date;
             case 13: day = "Saturday"; 
             case 6: day = "Saturday"; break;
         }
-        let dayID = "day" + i + "Name";
+        let dayClass = "day" + i + "Name";
 
-        document.getElementById(dayID).innerHTML = day;
+        document.querySelectorAll(dayClass).innerHTML = day;
 
         day = d.getDay();
     }
