@@ -48,6 +48,8 @@ let d = new Date;
             case 6: day = "Saturday"; break;
         }
         const dayID = "day" + i + "Name";
+
+        console.log(dayID);
         
         document.getElementById(dayID).innerHTML = day;
 
