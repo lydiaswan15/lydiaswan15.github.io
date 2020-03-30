@@ -4,7 +4,6 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
     })
     .then(townsList => {
             let towns = townsList.towns;
-            console.log(towns);
         
             towns.forEach(town =>{
                 let article = document.createElement('article');
