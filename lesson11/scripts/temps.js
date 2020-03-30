@@ -22,7 +22,7 @@ fetch(weatherURL)
 
     })
 
-    const forcastURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=ab49a57826e1d796047632c5f039fe78';
+    const forcastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=ab49a57826e1d796047632c5f039fe78';
 
     fetch(forcastURL)
     .then((response) => response.json())
