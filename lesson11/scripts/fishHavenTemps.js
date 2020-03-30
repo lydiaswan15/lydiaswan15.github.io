@@ -1,6 +1,6 @@
 //infomation for Fish Haven
 
-    const fishHavenURL = 'http://api.openweathermap.org/data/2.5/weather?id=5585010&APPID=ab49a57826e1d796047632c5f039fe78';
+    const fishHavenURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&APPID=ab49a57826e1d796047632c5f039fe78';
     fetch(fishHavenURL)
         .then((response) => response.json())
         .then((jsonObject) => {
@@ -23,7 +23,7 @@
     
         })
     
-        const sodaSpringsForcastURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5585010&APPID=ab49a57826e1d796047632c5f039fe78';
+        const sodaSpringsForcastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&APPID=ab49a57826e1d796047632c5f039fe78';
     
         fetch(sodaSpringsForcastURL)
         .then((response) => response.json())
