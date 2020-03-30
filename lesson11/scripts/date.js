@@ -49,9 +49,6 @@ let d = new Date;
         }
         const dayID = "day" + i + "Name";
 
-        console.log(dayID);
-        
-        
         document.getElementById(dayID).innerHTML = day;
 
         day = d.getDay();
