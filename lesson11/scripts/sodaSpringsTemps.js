@@ -25,7 +25,7 @@
     
         })
     
-        const sodaSpringsForcastURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=ab49a57826e1d796047632c5f039fe78';
+        const sodaSpringsForcastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=ab49a57826e1d796047632c5f039fe78';
     
         fetch(sodaSpringsForcastURL)
         .then((response) => response.json())
