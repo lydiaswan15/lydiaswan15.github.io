@@ -1,4 +1,3 @@
-
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const loadImages = (image) => {
