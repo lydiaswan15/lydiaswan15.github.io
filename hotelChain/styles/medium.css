@@ -1,0 +1,77 @@
+@media only screen and (min-width: 38.5em) {
+    /* HTML */
+
+
+    nav img{
+        display: flex;
+        width: 50px;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav ul{
+        align-items: center;
+    }
+     
+
+    /* Class */
+    .navigation li:first-child{
+        display: none;
+    }
+
+    .navigation li{
+        display: flex;
+    }
+
+    .active{
+        background-color: #b1700d;
+        color: white;
+        padding: .75em;
+    }
+
+    /* Two section grid*/
+    .twoColumnGrid{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        padding: 20px;
+    }
+
+    .twoColumnGrid img{
+        max-width: 350px;
+    }
+
+    .rightSection{
+        grid-column: 2/3;
+        vertical-align: middle;    
+    }
+
+    .leftSection{
+        grid-column: 1/2;
+    }
+
+    .paragraphSpacing{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #fullTimeMissionaries{
+        grid-template-columns: 1/3;
+    }
+
+
+    /* ID Selectors */
+
+    #mainPageSaltLakeCity{
+        display: inline;
+    }
+
+    #makeAReservation{
+        width: 200px;
+        margin-left: -100px;
+        font-size: 1.2em;
+    }
+
+}

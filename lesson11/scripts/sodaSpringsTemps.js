@@ -2,7 +2,7 @@
 
     // Information for Soda Springs
 
-    const sodaSpringsURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&APPID=ab49a57826e1d796047632c5f039fe78';
+    const sodaSpringsURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&APPID=ab49a57826e1d796047632c5f039fe78&units=imperial';
     fetch(sodaSpringsURL)
         .then((response) => response.json())
         .then((jsonObject) => {
@@ -25,7 +25,7 @@
     
         })
     
-        const sodaSpringsForcastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=ab49a57826e1d796047632c5f039fe78';
+        const sodaSpringsForcastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=ab49a57826e1d796047632c5f039fe78&units=imperial';
     
         fetch(sodaSpringsForcastURL)
         .then((response) => response.json())
