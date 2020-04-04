@@ -25,9 +25,32 @@
     </nav>
 
     <main>
-        <section id = "barraquillaColumbia" class ="oneTemple">
+        <!-- Colombia Temple -->
+        <section id = "barraquillaColumbia" class ="oneTemple, twoColumnGrid">
+
             <h1>Barranquilla Colombia Temple</h1>
 
+            <img src="images/barranquilla-colombia-temple-1856.jpg" alt="Baraquilla Columbia Temple" class = "templeImages, leftSection">
+
+            <section class = "templeWeather" id = "baraquillaWeather">
+                <h3>Weather Summary</h3>
+                    <div>
+                        <span>Current Temp:</span>
+                        <span id = 'baraquilla-current-temp'></span>
+                    </div>
+
+                    <div>
+                        <span>Wind Chill:</span>
+                        <span id = 'baraquilla-wind-chill'></span>
+                    </div>
+
+                    <div>
+                        <span>Wind Speed:</span>
+                        <span id = 'baraquilla-wind-speed'></span>
+                    </div>
+            </section>
+
+            <section class = "rightSection">
             <section>
                 <h2>Address</h2>
                 <ul class = "noBullets">
@@ -54,14 +77,12 @@
 
             <section>
                 <h2>Ordinance Schedule</h2>
-                <section>
+
                     <h3>Baptism</h3>
                     <ul>
                         <li>9:00am - 12:00pm (Appointments Only)</li>
                     </ul>
-                </section>
 
-                <section>
                     <h3>Endownment</h3>
                     <ul>
                         <li>8:00 am</li>
@@ -69,19 +90,16 @@
                         <li>11:00 am</li>
                         <li>12:00 pm</li>
                     </ul>
-                </section>
 
-                <section>
                     <h3>Sealing</h3>
                     <ul>
                         <li>9:00 am - 12:00 pm</li>
                     </ul>
-                </section>
             </section>
 
             <section>
                 <h2>Temple Closure</h2>
-                <ul>
+                <ul id = "barraquillaColumbiaClosure">
                 </ul>
             </section>
 
@@ -92,11 +110,35 @@
                     <li><b>Ground Breaking: </b>20 February 2016</li>
                     <li><b>Dedicated </b>9 December 2018</li>
                 </ul>
+                </section>
             </section>
         </section>
 
-        <section id = "loganUtahTemple" class ="oneTemple">
+
+        <!-- Logan Temple -->
+
+        <section id = "loganUtahTemple" class ="oneTemple, twoColumnGrid">
+    
             <h1>Logan Utah Temple</h1>
+            <img src="images/loganTemple.jpg" alt="Logan Temple" class="leftSection">
+            <section class = "templeWeather" id = "loganWeather">
+                <h3>Weather Summary</h3>
+                    <div>
+                        <span>Current Temp:</span>
+                        <span id = 'logan-current-temp'></span>
+                    </div>
+
+                    <div>
+                        <span>Wind Chill:</span>
+                        <span id = 'logan-wind-chill'></span>
+                    </div>
+
+                    <div>
+                        <span>Wind Speed:</span>
+                        <span id = 'logan-wind-speed'></span>
+                    </div>
+            </section>
+            <section class = "rightSection">
             <section>
             <h2>Address</h2>
             <ul class="noBullets">
@@ -123,22 +165,22 @@
 
             <section>
                 <h2>Ordinance Schedule</h2>
-                <section>
+                
                     <h3>Baptism</h3>
                     <ul>
                         <li>5:30 am - 7:00 am</li>
                         <li>7:00 am - 7:30 pm</li>
                     </ul>
-                </section>
+                
 
-                <section>
+                
                     <h3>Endownment</h3>
                     <ul>
                         <li>Every half hour from 5:30 am to 7:30 pm</li>
                     </ul>
-                </section>
+               
 
-                <section>
+                
                     <h3>Sealing</h3>
                     <ul>
                         <li>7:00 am - 9:15 am</li>
@@ -147,12 +189,12 @@
                         <li>2:30 pm - 3:29 pm</li>
                         <li>3:30 pm - 8:00 pm</li>
                     </ul>
-                </section>
+                
             </section>
 
             <section>
                 <h2>Temple Closure</h2>
-                <ul>
+                <ul id = "loganClosure">
                 </ul>
             </section>
 
@@ -165,11 +207,35 @@
                     <li><b>Rededicated </b>13 March 1979</li>
                 </ul>
             </section>
+            </section>
         </section>
 
-        <section id = "laieHawaiiTemple" class ="oneTemple">
+
+        <!-- Hawaii Temple -->
+
+        <section id = "laieHawaiiTemple" class ="oneTemple, twoColumnGrid">
+        
             <h1>Laie Hawaii Temple</h1>
 
+            <img src="images/Kimbry Studios Photography-Hawaii Wedding Photographer- Elopement photography- Laie Hawaii Temple wedding- North Shore Wedding_0001.jpg" alt="photo of the Laie Hawaii Temple" class = "leftSection">
+            <section id = "hawaiiWeather">
+                <h3>Weather Summary</h3>
+                    <div>
+                        <span>Current Temp:</span>
+                        <span id = 'hawaii-current-temp'></span>
+                    </div>
+
+                    <div>
+                        <span>Wind Chill:</span>
+                        <span id = 'hawaii-wind-chill'></span>
+                    </div>
+
+                    <div>
+                        <span>Wind Speed:</span>
+                        <span id = 'hawaii-wind-speed'></span>
+                    </div>
+            </section>
+            <section class = "rightSection">
             <section>
                 <h2>Address</h2>
                 <ul class = "noBullets">
@@ -196,7 +262,7 @@
 
             <section>
                 <h2>Ordinance Schedule</h2>
-                <section>
+                
                     <h3>Baptism</h3>
                     <ul>
                         <li>7:00 am - 9:00 am</li>
@@ -204,28 +270,28 @@
                         <li>5:30 pm - 6:30 pm</li>
                         <li>7:00 pm - 8:00 pm</li>
                     </ul>
-                </section>
+                
 
-                <section>
+               
                     <h3>Endownment</h3>
                     <ul>
                         <li>Every hour from 8:00 am to 8:00 pm</li>
                     </ul>
-                </section>
+                
 
-                <section>
+               
                     <h3>Sealing</h3>
                     <ul>
                         <li>4:00 pm - 6:00 pm</li>
                         <li>6:00 pm - 8:00 pm</li>
                         <li>8:00 pm - 9:00 pm</li>
                     </ul>
-                </section>
+                
             </section>
 
             <section>
                 <h2>Temple Closure</h2>
-                <ul>
+                <ul id = "hawaiiClosure">
                 </ul>
             </section>
 
@@ -239,6 +305,7 @@
                     <li><b>Rededicated: </b>21 November 2010</li>
                 </ul>
             </section>
+            </section>
         </section>
     </main>
 
@@ -250,5 +317,6 @@
 
     <script src = "scripts/toggleMenu.js"></script>
     <script src="scripts/temples.js"></script>
+    <script src = "scripts/temps.js"></script>
 </body>
 </html>

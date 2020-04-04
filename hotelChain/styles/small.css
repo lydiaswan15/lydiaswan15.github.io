@@ -49,10 +49,6 @@ h1, h2, h3, p{
     margin: 20px;
 }
 
-p{
-    padding-bottom: 3em;
-}
-
 footer{
     padding: 3em;
 }
@@ -130,8 +126,22 @@ form div{
 }
 
 .oneTemple{
-    padding-top: 10em;
+    padding-top: 5em; padding-bottom: 5em;
+    position: relative;
 }
+
+.oneTemple section{
+    padding: .5em;
+}
+
+.oneTemple h1{
+    font-size: 3em;
+}
+
+.oneTemple h2{
+    font-size: 2em;
+}
+
 
 
 
@@ -178,15 +188,28 @@ form div{
 
 #fullTimeMissionaries{
     background-color: #dac89a;
-    color: black;
+    color: white;
 }
 
-#fullTimeMissionaries h2{
-    font-size: 2em;
-    margin: 30px;
-    padding-top: 1em;
+#fullTimeMissionaries p{
+    max-width: 30em;
+}
+#services{
+    padding-top: 50px; padding-bottom: 50px; padding-left: 20px; padding-right: 20px;
+    background-color: #dac89a;
 }
 
+#services ul{
+    padding-bottom: 30px;
+}
+
+#fullTimeMissionaries{
+    padding: 20px;
+}
+
+#fullTimeMissionaries img{
+    display: none;
+}
 
 /* Reservation Page */
 
@@ -196,4 +219,9 @@ form div{
     justify-content: center;
     padding: 0px;
 }
+
+#loganUtahTemple{
+    background-color: #dac89a;
+}
+
 
