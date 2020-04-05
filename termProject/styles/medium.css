@@ -104,15 +104,36 @@
     }
 
     #baraquillaWeather{
-        top: 125vh;
+        top: 900px;
     }
 
     #loganWeather{
-        top: 290vh;
+        top: 2200px;
     }
 
     #hawaiiWeather{
-        top: 470vh;
+        top: 3600px;
+    }
+
+    /* Contact */
+
+    #contactInformation{
+        grid-column: 1/2;
+    }
+
+    iframe{
+        grid-column: 2/3;
+    }
+
+    #contactForm{
+        background-color: #dac89a;
+        max-width: 50%;
+
+    }
+
+    #formSection{
+        display: flex;
+        justify-content: center;
     }
 
 
