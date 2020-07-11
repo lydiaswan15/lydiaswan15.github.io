@@ -1,4 +1,5 @@
 /* HTML Selectors */
+
 body{
     margin: 0px;
     position: relative;
@@ -87,16 +88,27 @@ form div{
     margin: 1em;
 }
 
+nav{
+    padding: 0px;
+    margin:
+}
+
+
+
 
 /* Class Selectors */
 
 /* Toggle Menu */
 .navigation li{
     display: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navigation li:first-child{
     display: block;
+    padding: 0px;
+
 }
 
 .responsive{
@@ -118,6 +130,19 @@ form div{
     opacity: 100%;
     color: white;
 }
+
+.responsive li a:hover{
+    font-size: 1.5em;
+    border: solid 2px;
+    padding: 1em 3em 1em 3em;
+}
+
+/* .responsive li a:first-child:hover{
+    border: none;
+    padding: 0px;
+    font-size: 1em;
+} */
+
 
 .responsive a{
     color: white;
@@ -165,7 +190,29 @@ form div{
 
 
 /* ID Selectors */
+#hamIcon{
+    font-size: 1em;
+    align-content: center;
+    margin: 0px;
+    padding: 1em;
+}
 
+#hamIcon:hover{
+    font-size: .5em;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.responsive:first-child{
+    font-size: 1em;
+    align-content: center;
+    margin: 0px;
+}
+
+#hamIcon:first-child{
+    font-size: 1.5em;
+}
 
 #homePagePhotoSection{
     position: relative;
