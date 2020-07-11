@@ -1,6 +1,7 @@
 /* HTML Selectors */
 body{
     margin: 0px;
+    position: relative;
 }
 main{
     font-family: 'Lato', sans-serif;
@@ -87,10 +88,6 @@ form div{
 }
 
 
-
-
-
-
 /* Class Selectors */
 
 /* Toggle Menu */
@@ -102,12 +99,30 @@ form div{
     display: block;
 }
 
+.responsive{
+    position: absolute;
+    z-index: 1;
+    background-color: #dac89a;
+    margin: 0px;
+    width: 100vw; height: 100vh;
+    opacity: 95%;
+    color: white;
+}
+
 .responsive li{
     display: block;
     justify-content: center;
     padding: 5px;
     display: flex;
     justify-content: center;
+    opacity: 100%;
+    color: white;
+}
+
+.responsive a{
+    color: white;
+    margin: 2em;
+    font-size: 1.5em;
 }
 
 .paragraphSpacing{
@@ -151,27 +166,37 @@ form div{
 
 /* ID Selectors */
 
+
 #homePagePhotoSection{
     position: relative;
+    justify-content: center;
 }
 
 #makeAReservation{
-    width: 150px;
-    margin-left: -75px;
+    width: 250px; height: 50px;
     font-family: "PT Serif", "serif";
     text-decoration: none;
-    color:#ece8c4;
+    color: white;
+
     position: absolute;
-    top: 75%; left: 50%; 
-    font-size: 1em;
+    top: 50%; left: 50%; 
+    margin-left: -125px; margin-top: -25px;
+
+    font-size: 1.5em;
     padding: 5px;
     justify-content: center;
+    align-content: center;
+    line-height: 50px;
     display: flex;
     border-style: solid;
+
+    animation: fadeInSamePosition 2.5s 1;
+    animation-fill-mode: forwards;
+
 }
 
 #makeAReservation:hover{
-    color: white;
+    color:#ece8c4;
 }
 
 #mainPageSaltLakeCity{
@@ -223,5 +248,33 @@ form div{
 #loganUtahTemple{
     background-color: #dac89a;
 }
+
+/* #openNavigationItems{
+    background-color: red;
+    position: absolute;
+    display: block;
+    z-index: 1;
+
+    width: 100%; height: 100%;
+    margin: 0px;
+
+} */
+
+ /* Animations */
+
+
+/* No movement, just fade into the screen */
+ @keyframes fadeInSamePosition{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;;
+    }
+}
+
+
+
+
 
 

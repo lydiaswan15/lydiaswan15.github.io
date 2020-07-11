@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Get Middle</title>
+<script>
+    function getMi() {
+        var list = [4.7,-4.3,12.5,12.1,-8.9,17.3,-5.1,11.6,16.4,5.3,-8.3,-9.6,17.3,-0.1,15,-3.6,7.4,1.9,8.1,19.9,6.8,15.2,-3.5,-9.2,12.3,1.2,0.5,17.5,0.5,2.9];
+        var value = getMiddle(list);
+        console.log(value);
+    }
+    function getMiddle(list) {
+
+        if (list.length % 2 == 0) {
+            var value = (list[list.length / 2 - 1] + list[list.length / 2]) / 2;
+        }
+        else if (list.length % 2 == 1) {
+                var value = list[(list.length - 1) / 2];
+        }
+        return value;
+    }
+</script>
+</head>
+
+<body>
+<h1>Get Middle</h1>
+<button type="button" onclick="getMi()">Get Middle</button>
+<div id="value"></div>
+</body>
+</html>
