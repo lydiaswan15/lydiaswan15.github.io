@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Playfair+Display&display=swap');
+
+/* for mobile */
+.container{
+    font-family: 'Playfair Display', serif;
+    height: 90vh;
+    padding-top: 25.3vh;
+    padding-left: 40px;
+}
+
+/* for desktop */
+@media only screen and (min-width: 768px){}
