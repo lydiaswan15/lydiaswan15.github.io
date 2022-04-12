@@ -1,0 +1,71 @@
+
+
+/* HTML */
+body{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+button{
+    background-color: #383535;
+    border: solid 1px;
+    border-color: #383535;
+    padding: 1em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: .5em;
+}
+
+
+/* Class */
+.listTotal{
+    grid-column: 2 / 3;
+    margin: 3em;
+}
+
+.item{
+    display: flex;
+    border: solid 1px;
+    padding: 0px;
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 3fr 1fr;   
+}
+
+.buttons{
+    grid-column: 2/3;
+    margin: .5em;
+    display: flex;
+}
+
+.complete{
+    border-color: green;
+    background-color: white;
+    color: green;  
+    
+}
+
+.completedItem{
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+
+/* Id */
+
+#toDoDiv{
+    margin: 0px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+
+}
+
+
+
+
+

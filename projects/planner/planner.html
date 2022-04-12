@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <link rel="stylesheet" href="styles/planner.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <button class = "rightButtons" id = "firstButton">&#x2192</button>
+    <section id = "openingSlideSection">
+        <section id = "quoteSectionLarge">
+        <h1 id = "todaysDatePageOne"></h1>
+        </section>
+    </section>
+
+    <button id = 'rightButton2' class = "positioning">&#x2192</button>
+    <section id = "page2">
+        <h1 id = "todayDate"></h1>
+
+        <section id = 'addingANewTaskAndList'>
+        <section id = "newItemInformation">
+            <input type="text" id = "itemId">
+            <select id="weekDropDownMenu">
+                <option value="Sunday">Sunday</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+            </select>
+            <button id = "newItemButton">Create New Item</button>
+        </section>
+
+    <section id = "listOfTodaysTasks"></section>
+
+</section>
+
+    </section>
+
+  
+    
+    <section id = "weeklyList">
+        <button id = 'leftButton2' class = "positioning">&#x2190</button>
+        <section id = "days">
+        <section id = "Sunday">
+            <h1>Sunday</h1>
+            <div id = "SundayTasks"></div>
+        </section>
+
+        <section id = "Monday">
+            <h1>Monday</h1>
+            <div id = "MondayTasks"></div>
+        </section>
+
+        <section id = "Tuesday">
+            <h1>Tuesday</h1>
+            <div id = "TuesdayTasks"></div>
+        </section>
+
+        <section id = "Wednesday">
+            <h1>Wednesday</h1>
+            <div id = "WednesdayTasks"></div>
+        </section>
+
+        <section id = "Thursday">
+            <h1>Thursday</h1>
+            <div id = "ThursdayTasks"></div>
+        </section>
+
+        <section id = "Friday">
+            <h1>Friday</h1>
+            <div id = "FridayTasks"></div>
+        </section>
+
+        <section id = "Saturday">
+            <h1>Saturday</h1>
+            <div id = "SaturdayTasks"></div>
+        </section>
+    </section>
+
+    </section>
+    </section>
+
+    <script src = "./scripts/planner.js" type="module"></script>
+    <script src="./scripts/quotes.js"></script>
+
+</body>
+
+</html>
