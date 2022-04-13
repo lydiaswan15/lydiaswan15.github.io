@@ -1,0 +1,67 @@
+
+h1{
+    font-size: 9vw;
+    border: 0px;
+    margin: 0px;
+    /* color: #E2F3EF; */
+    color: white;
+    font-family: 'MadameGretthaDemoRegular' ;
+}
+
+p{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.aboutMeContainer{
+    padding: 20px;
+    padding-top: 15vh;
+}
+img{
+    display: none;
+}
+
+
+@media only screen and (min-width: 768px){
+    .aboutMeContainer{
+       padding: 130px;
+       padding-right: 310px;
+        display: flex;
+        border: 0px;
+        opacity: 0;
+        
+        animation: onLoad 1s .5s;
+        animation-fill-mode: forwards;
+    }
+    #helloName {
+        background-color: yellow;
+        opacity: 0;
+        animation: onLoad .5s ease-out .75s 1;
+        animation-fill-mode: forwards;
+    }
+    h1{
+        font-size: 65px;
+    }
+    img{
+        padding: 10px;
+        margin-right: 25px;
+        display:inline;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;
+    }
+    p{
+        margin-top: -20px;
+    }
+}
+
+@keyframes onLoad {
+    from{
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
