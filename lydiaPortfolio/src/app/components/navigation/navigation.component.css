@@ -1,62 +1,59 @@
-.hamIcon{
-    width: 20px;
-    height: 1px;
-    background-color: #99C1B7;
-    margin: 6px 0;
-  }
-  .hamIconGroup{
-      float:right;
-  }
-  .navigationMenu{
-      display: none;
-  }
+.hamIcon {
+  width: 20px;
+  height: 1px;
+  background-color: #99C1B7;
+  margin: 6px 0;
+}
 
-  @media only screen and (min-width: 768px){
-      .hamIconGroup{
-          display: none;
-      }
-      .navigationMenu{
-        display: flex;
-        justify-content: right;
-        margin-top: -10px;
-      }
+.hamIconGroup {
+  float: right;
+}
 
-      .navigationMenu ul li{
-        list-style: none;
-        float: right;
-        }
+.navigationMenu {
+  display: none;
+}
 
-      #firstMenu{
-        opacity: 0;
-        animation: navigationLoad .5s ease-out 0s 1;
-        animation-fill-mode: forwards;
-      }
-      #secondMenu{
-        opacity: 0;
-        animation: navigationLoad .5s ease-out .25s 1;
-        animation-fill-mode: forwards;
-      }
-      #thirdMenu{
-        opacity: 0;
-        animation: navigationLoad .5s ease-out .5s 1;
-        animation-fill-mode: forwards;
-      }
-
-      @keyframes navigationLoad {
-        from{
-          opacity: 0;
-          transform: translateY(-40px);
-        }
-        to{
-          opacity: 1;
-          transform: translateY(0px);
-        }
-      }
-
+@media only screen and (min-width: 768px) {
+  .hamIconGroup {
+    display: none;
   }
 
+  .navigationMenu {
+    display: flex;
+    justify-content: right;
+    margin-top: -10px;
+  }
 
- 
-  
- 
-  
+  .navigationMenu ul li {
+    list-style: none;
+    float: right;
+  }
+
+  /* #firstMenu{
+    opacity: 0;
+    animation: navigationLoad .5s ease-out 0s 1;
+    animation-fill-mode: forwards;
+  }
+  #secondMenu{
+    opacity: 0;
+    animation: navigationLoad .5s ease-out .25s 1;
+    animation-fill-mode: forwards;
+  }
+  #thirdMenu{
+    opacity: 0;
+    animation: navigationLoad .5s ease-out .5s 1;
+    animation-fill-mode: forwards;
+  } */
+  @keyframes navigationLoad {
+    from {
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+}
+
+/*# sourceMappingURL=navigation.component.css.map */
