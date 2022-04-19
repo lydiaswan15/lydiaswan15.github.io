@@ -6,9 +6,11 @@
 
 <div class = "navigationMenu">
     <ul>
-        <li><app-button text="Contact"></app-button></li>
-        <li id="secondMenu"><app-button text = "About Me" ></app-button></li>
+        <li><app-button text="Contact" (btnClick)="toggleAddClass()" routerLink="/contact"></app-button></li>
+        <li id="secondMenu"><app-button text = "About Me"></app-button></li>
         <li id="thirdMenu"><app-button text = "Projects" ></app-button></li>
+
+         <!-- Make sure to look into removing the list  -->
     </ul>
 
 </div>

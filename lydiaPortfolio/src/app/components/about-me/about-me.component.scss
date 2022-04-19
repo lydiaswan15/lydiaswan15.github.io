@@ -1,25 +1,45 @@
 
-h1{
-    font-size: 9vw;
-    border: 0px;
-    margin: 0px;
-    /* color: #E2F3EF; */
-    color: white;
-    font-family: 'MadameGretthaDemoRegular' ;
-}
-
-p{
-    margin: 0px;
-    margin-bottom: 15px;
-}
 
 .aboutMeContainer{
     padding: 20px;
     padding-top: 15vh;
+    img{
+        display: none;
+    }
+    h2{
+        opacity: 0;
+        animation: onLoad 1s .25s;
+        animation-fill-mode: forwards;
+    }
+    h1{
+        font-size: 9vw;
+        border: 0px;
+        margin: 0px;
+        opacity: 0;
+        color: white;
+        font-family: 'MadameGretthaDemoRegular' ;
+        animation: onLoad 1s .5s;
+        animation-fill-mode: forwards; 
+    }
+
+    ul{
+        opacity: 0;
+        list-style: none;
+        animation: onLoad 1s 1s;
+        display: flex;
+        animation-fill-mode: forwards;
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-top: 20pxl
+    }
+    p{
+        opacity: 0;
+        margin-top: -20px;
+        animation: onLoad 1s .75s;
+        animation-fill-mode: forwards;
+    }
 }
-img{
-    display: none;
-}
+
 
 
 @media only screen and (min-width: 768px){
@@ -29,46 +49,26 @@ img{
         display: flex;
         border: 0px;
 
-    }
-    h1{
-        opacity: 0;
-        font-size: 65px;
-        animation: onLoad 1s .5s;
-        animation-fill-mode: forwards;  
-    }
-    .aboutMeContainer img{
-        padding: 10px;
-        margin-right: 25px;
-        display:inline;
-        height: 200px;
-        width: 200px;
-        border-radius: 200px;
-        opacity: 0;
-        animation: onLoad 1s .5s;
-        animation-fill-mode: forwards;  
-    }
-    p{
-        opacity: 0;
-        margin-top: -20px;
-        animation: onLoad 1s .75s;
-        animation-fill-mode: forwards;
-    }
+        h1{
+            font-size: 65px;
+        }
 
-    .aboutMeContainer ul{
-        list-style: none;
-        opacity: 0;
-        margin-top: -20px;
-        padding-left: 0px;
-        padding-top: 20px;
-        animation: onLoad 1s 1s;
-        display: flex;
-        animation-fill-mode: forwards;
-    }
+        img{
+            padding: 10px;
+            margin-right: 25px;
+            display:inline;
+            height: 200px;
+            width: 200px;
+            border-radius: 200px;
+            opacity: 0;
+            animation: onLoad 1s .5s;
+            animation-fill-mode: forwards;  
 
-    h2{
-        opacity: 0;
-        animation: onLoad 1s .25s;
-        animation-fill-mode: forwards;
+        }
+        ul{
+            margin-top: -20px;
+        }
+
     }
 }
 
