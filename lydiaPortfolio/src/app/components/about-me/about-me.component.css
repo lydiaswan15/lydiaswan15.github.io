@@ -46,6 +46,7 @@ img {
     opacity: 0;
     animation: onLoad 1s 0.5s;
     animation-fill-mode: forwards;
+    
   }
 
   p {
