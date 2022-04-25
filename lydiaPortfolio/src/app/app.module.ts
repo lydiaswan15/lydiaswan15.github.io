@@ -7,8 +7,16 @@ import { HeadingComponent } from './components/heading/heading.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { RosesComponent } from './components/roses/roses.component';
 import { RouterModule, Routes} from '@angular/router';
+import { FormsModule } from '@angular/forms';
 import { ContactComponent } from './components/contact/contact.component';
-const routes: Routes = [];
+import { HttpClientModule } from '@angular/common/http';
+
+// Firebase imports
+import {AngularFireModule} from '@angular/fire/compat';
+import { environment } from 'src/environments/environment';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +29,9 @@ const routes: Routes = [];
   ],
   imports: [
     BrowserModule, 
+    HttpClientModule,
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
     RouterModule.forRoot([
       {path: '', redirectTo: '/about-me', pathMatch: 'full' },
       {path: 'about-me', component: AboutMeComponent}, 

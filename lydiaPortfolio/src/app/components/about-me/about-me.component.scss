@@ -1,8 +1,7 @@
 
 
 .aboutMeContainer{
-    padding: 20px;
-    padding-top: 15vh;
+
     img{
         display: none;
     }
@@ -44,8 +43,6 @@
 
 @media only screen and (min-width: 768px){
     .aboutMeContainer{
-       padding: 130px;
-       padding-right: 310px;
         display: flex;
         border: 0px;
 
@@ -55,6 +52,7 @@
 
         img{
             padding: 10px;
+            padding-left: 0px;
             margin-right: 25px;
             display:inline;
             height: 200px;

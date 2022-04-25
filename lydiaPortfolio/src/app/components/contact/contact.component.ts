@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HeadingComponent } from '../heading/heading.component';
 
 @Component({
   selector: 'app-contact',
@@ -12,4 +13,7 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSubmit(){
+    console.log('hello');
+  }
 }
