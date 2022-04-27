@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 // Firebase imports
 import {AngularFireModule} from '@angular/fire/compat';
 import { environment } from 'src/environments/environment';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
 
 
@@ -26,6 +27,7 @@ import { environment } from 'src/environments/environment';
     NavigationComponent,
     RosesComponent,
     ContactComponent,
+    AboutMeComponent,
   ],
   imports: [
     BrowserModule, 
@@ -35,7 +37,8 @@ import { environment } from 'src/environments/environment';
     RouterModule.forRoot([
       {path: '', redirectTo: '/home', pathMatch: 'full' },
       {path: 'home', component: HomeComponent}, 
-      {path: 'contact', component:ContactComponent}
+      {path: 'contact', component:ContactComponent}, 
+      {path: 'about-me', component:AboutMeComponent}
     ])
   ],
   providers: [],
