@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+$background-color: #173a34;
+$font-color: #99C1B7;
+
 html{
-    background-color: #173a34;
+        background-color: $background-color;
         font-family: 'Lato', sans-serif;
-        color: #99C1B7;
+        color: font-color;
         padding: 20px;
+
+        h2, h3, p{
+                color: #99C1B7;
+              }
 }

@@ -16,4 +16,8 @@ export class ContactComponent implements OnInit {
   onSubmit(){
     console.log('hello');
   }
+
+  testing(){
+    console.log("Hello");
+  }
 }

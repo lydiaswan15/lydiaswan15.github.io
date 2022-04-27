@@ -1,0 +1,35 @@
+$background-color: #173a34;
+$lighter-backgroud: #1A403A;
+$font-color: #99C1B7;
+.contactContainer{
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+app-heading{
+    float: center;
+    color: $font-color;
+}
+app-heading{
+    text-align: center;
+}
+form{
+    label{
+        display: block;
+        color: $font-color;
+        margin-top: 10px;
+    }
+    app-button{
+        display: block;
+    }
+    input, textarea{
+        width: 100%;
+        margin-top: 10px;
+        background-color: $background-color;
+        border-color: $font-color;
+        border-style: solid;
+        border-width: 2px;
+    }
+    input{
+        height: 2em;
+    }
+}

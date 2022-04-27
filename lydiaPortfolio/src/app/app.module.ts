@@ -25,7 +25,7 @@ import { environment } from 'src/environments/environment';
     HeadingComponent,
     NavigationComponent,
     RosesComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule, 
