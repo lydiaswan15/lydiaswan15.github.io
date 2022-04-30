@@ -15,8 +15,8 @@ import { HttpClientModule } from '@angular/common/http';
 import {AngularFireModule} from '@angular/fire/compat';
 import { environment } from 'src/environments/environment';
 import { AboutMeComponent } from './components/about-me/about-me.component';
-
-
+import { initializeApp } from 'firebase/app';
+import { getDatabase } from "firebase/database";
 
 @NgModule({
   declarations: [

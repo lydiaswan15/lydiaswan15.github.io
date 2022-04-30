@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   firebaseConfig: {
     apiKey: "AIzaSyDcBB0zwhFHuKigrnHzyI-HqZ5S-dfBkOE",
     authDomain: "lydia-portfolio.firebaseapp.com",
@@ -14,6 +14,8 @@ export const environment = {
     measurementId: "G-MGM17J72X4"
   }
 };
+
+
 
 /*
  * For easier debugging in development mode, you can import the following file
