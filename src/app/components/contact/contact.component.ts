@@ -46,7 +46,7 @@ export class ContactComponent implements OnInit {
     const db = getDatabase(app);
 
     const postData = {
-      name: "Lydia4",
+      name: "Lydia5",
       email: "lydiaspam15@gmail.com",
       phoneNum: 8018223510,
       message: "this is working"
