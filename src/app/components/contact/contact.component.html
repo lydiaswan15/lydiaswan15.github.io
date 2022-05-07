@@ -3,15 +3,15 @@
     <app-heading text="Contact Me"></app-heading>
     <form action="">
         <label for="name">Name</label>
-        <input type="text" id = "name">
+        <input type="text" id = "name" #name>
 
-        <label for="email">Email</label>
-        <input type="text" id = "email">
+        <label for="email" >Email</label>
+        <input type="text" id = "email" #email>
 
         <label for="message">Message</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="" id="" cols="30" rows="10" #message></textarea>
 
-        <app-button (btnClick)="testing()" text="Submit"></app-button>
+        <app-button (btnClick)="testing(name, email, message)" text="Submit"></app-button>
     </form>
 
 </div>

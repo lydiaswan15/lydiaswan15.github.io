@@ -6,6 +6,7 @@ import { HeadingComponent } from '../heading/heading.component';
 
 import { initializeApp } from 'firebase/app';
 import { getDatabase, push, ref, set, child, update} from "firebase/database";
+import { Contact } from './contact.model';
 
 // TODO: Replace with your app's Firebase project configuration
 
@@ -27,7 +28,9 @@ export class ContactComponent implements OnInit {
     console.log('hello');
   }
 
-  testing(){
+  testing(name, email, message){
+
+    let contact = new Contact(name.value, email.value, message.value);
 
     const firebaseConfig = {
       apiKey: "AIzaSyDcBB0zwhFHuKigrnHzyI-HqZ5S-dfBkOE",
@@ -46,10 +49,9 @@ export class ContactComponent implements OnInit {
     const db = getDatabase(app);
 
     const postData = {
-      name: "Lydia5",
-      email: "lydiaspam15@gmail.com",
-      phoneNum: 8018223510,
-      message: "this is working"
+      name: contact.name,
+      email: contact.email,
+      message: contact.message
     }
 
     const newPostKey = push(child(ref(db), 'posts')).key;
