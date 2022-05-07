@@ -3,7 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "dist/lydia-portfolio",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
