@@ -12,6 +12,9 @@
         <textarea name="" id="" cols="30" rows="10" #message></textarea>
 
         <app-button (btnClick)="testing(name, email, message)" text="Submit"></app-button>
+
+        <p *ngIf="messageSubmitted">Thank you! I'm excited to be in contact with you!</p>
+        <p *ngIf="errorMessage">Oops! Something went wrong! Please reach out over email at lydiaswan15@gmail.com</p>
     </form>
 
 </div>

@@ -28,6 +28,8 @@ form{
         border-color: $font-color;
         border-style: solid;
         border-width: 2px;
+        color: $font-color;
+        font-family: 'Lato', sans-serif;
     }
     input{
         height: 2em;

@@ -22,7 +22,7 @@ export class NavigationComponent implements OnInit {
     console.log('Button is working');
   }
   onDownloadPDF(){
-    const pdfUrl = './cse310_course_plan_complete.pdf';
+    const pdfUrl = '../assets/files/LydiaSwanson_Resume.pdf';
     const pdfName = 'lydia_swanson_resume';
     FileSaver.saveAs(pdfUrl, pdfName);
   }
