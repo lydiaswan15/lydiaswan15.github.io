@@ -27,4 +27,5 @@ export class NavigationComponent implements OnInit {
     FileSaver.saveAs(pdfUrl, pdfName);
   }
 
+  
 }
