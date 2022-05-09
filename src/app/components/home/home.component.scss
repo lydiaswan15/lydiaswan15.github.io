@@ -1,6 +1,5 @@
 .aboutMeContainer{
 
-    padding-top: 100px;
 
     img{
         display: none;
@@ -42,9 +41,16 @@
 
 
 @media only screen and (min-width: 768px){
+    .home{
+        height: 100vh; width: 100%;
+        position: relative;
+    }
     .aboutMeContainer{
+        position: absolute;
         display: flex;
         border: 0px;
+        top: 30vh;
+        
 
         h1{
             font-size: 65px;

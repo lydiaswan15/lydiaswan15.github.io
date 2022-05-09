@@ -7,9 +7,26 @@ html{
         background-color: $background-color;
         font-family: 'Lato', sans-serif;
         color: font-color;
-        padding: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
 
         h2, h3, p{
                 color: #99C1B7;
               }
+
+              h1{
+                font-size: 3vw;
+                border: 0px;
+                margin: 0px;
+                margin-top: 15vh;
+                color: white;
+                font-family: 'MadameGretthaDemoRegular' ;
+            }
+    
+            h3{
+              font-size: 1.3vw;
+            }
+            p{
+              font-size: 1vw;
+            }
 }

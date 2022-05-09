@@ -1,0 +1,39 @@
+.contactContainer {
+  margin-right: 15vw;
+  margin-left: 15vw;
+}
+
+app-heading {
+  float: center;
+  color: #99C1B7;
+}
+
+app-heading {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  color: #99C1B7;
+  margin-top: 10px;
+}
+
+form app-button {
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #173a34;
+  border-color: #99C1B7;
+  border-style: solid;
+  border-width: 2px;
+  color: #99C1B7;
+  font-family: 'Lato', sans-serif;
+}
+
+form input {
+  height: 2em;
+}
+/*# sourceMappingURL=contact.component.css.map */

@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["heading.component.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;AAIJ;EACI;IACI;IACA","file":"heading.component.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAA;EACE,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,GAAG;CAEjB;;AAED,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,EAAE,CAAA;IACE,aAAa,EAAE,IAAI;IACnB,SAAS,EAAE,IAAI;GAClB",
+    "sources": [
+        "heading.component.scss"
+    ],
+    "names": [],
+    "file": "heading.component.css"
+}

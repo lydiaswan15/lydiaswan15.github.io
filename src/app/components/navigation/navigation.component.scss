@@ -11,6 +11,15 @@
       display: none;
   }
 
+  .currentPage{
+    background-color: yellow;
+  }
+
+  .navigation{
+    position: fixed;
+    margin-right: 30px;
+  }
+
   @media only screen and (min-width: 768px){
       .hamIconGroup{
           display: none;
@@ -36,7 +45,6 @@
           transform: translateY(0px);
         }
       }
-
   }
 
 

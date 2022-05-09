@@ -1,6 +1,7 @@
 .rose {
   position: fixed;
   opacity: 60%;
+  display: none;
 }
 
 #rose1 {
@@ -11,7 +12,8 @@
 }
 
 #rose2 {
-  transform: rotate(140deg);
+  -webkit-transform: rotate(140deg);
+          transform: rotate(140deg);
   margin-top: -800px;
   margin-left: 350px;
   height: 300px;
@@ -19,11 +21,11 @@
 }
 
 #rose3 {
-  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
   margin-top: -400px;
   margin-left: 1200px;
   height: 400px;
   width: 400px;
 }
-
 /*# sourceMappingURL=roses.component.css.map */

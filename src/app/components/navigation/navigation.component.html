@@ -1,16 +1,21 @@
-<div class = "hamIconGroup">
-    <div class = "hamIcon"></div>
-    <div class = "hamIcon"></div>
-    <div class = "hamIcon"></div>
-</div>
+<div class="navigation">
 
-<div class = "navigationMenu">
-    <ul>
-        <li><app-button text="Contact" (btnClick)="toggleAddClass()" routerLink="/contact"></app-button></li>
-        <li id="secondMenu"><app-button text = "About Me" routerLink="/about-me"></app-button></li>
-        <li id="thirdMenu"><app-button text = "Resume" (btnClick)="onDownloadPDF()" ></app-button></li>
+    <div class = "hamIconGroup">
+        <div class = "hamIcon"></div>
+        <div class = "hamIcon"></div>
+        <div class = "hamIcon"></div>
+    </div>
+    
+    <div class = "navigationMenu">
+        <ul>
+            <li><app-button text="Contact" (btnClick)="toggleAddClass()" routerLink="/contact" [ngClass]="{'currentPage': currentPage == '/contact'}"></app-button></li>
+            <li id="secondMenu"><app-button text = "About Me" routerLink="/about-me" [ngClass]="{'currentPage': currentPage == '/about-me'}"></app-button></li>
+            <li id="thirdMenu"><app-button text = "Resume" (btnClick)="onDownloadPDF()"[ngClass]="{'currentPage': currentPage == '/home'}" ></app-button></li>
+    
+             <!-- Make sure to look into removing the list  -->
+        </ul>
+    
+    </div>
 
-         <!-- Make sure to look into removing the list  -->
-    </ul>
 
 </div>

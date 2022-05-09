@@ -1,9 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 html {
   background-color: #173a34;
-  font-family: "Lato", sans-serif;
-  color: #99C1B7;
-  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  color: font-color;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
+html h2, html h3, html p {
+  color: #99C1B7;
+}
+
+html h1 {
+  font-size: 3vw;
+  border: 0px;
+  margin: 0px;
+  margin-top: 15vh;
+  color: white;
+  font-family: 'MadameGretthaDemoRegular';
+}
+
+html h3 {
+  font-size: 1.3vw;
+}
+
+html p {
+  font-size: 1vw;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -13,13 +13,15 @@ const FileSaver = require('file-saver');
 
 export class NavigationComponent implements OnInit {
 
+  currentPage = window.location.pathname;
+
   constructor() {
    }
 
   ngOnInit(): void {
   }
   toggleAddClass(){
-    console.log('Button is working');
+    console.log(this.currentPage);
   }
   onDownloadPDF(){
     const pdfUrl = '../assets/files/LydiaSwanson_Resume.pdf';

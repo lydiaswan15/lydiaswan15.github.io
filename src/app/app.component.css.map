@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["app.component.scss"],"names":[],"mappings":"AACQ;AAER;AAEA;AACA;EACI;IACI","file":"app.component.css"}
+{
+    "version": 3,
+    "mappings": "AACA,OAAO,CAAC,0EAAI;AAEZ,gBAAgB;AAEhB,iBAAiB;AACjB,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,UAAU,CAAA;IACN,OAAO,EAAE,KAAK;GACjB;EACD,AAAA,KAAK,CAAA;IACD,WAAW,EAAE,IAAI;IACjB,YAAY,EAAE,IAAI;IAClB,UAAU,EAAE,GAAG;GAClB",
+    "sources": [
+        "app.component.scss"
+    ],
+    "names": [],
+    "file": "app.component.css"
+}

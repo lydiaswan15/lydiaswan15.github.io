@@ -17,6 +17,8 @@ import { environment } from 'src/environments/environment';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from "firebase/database";
+import { LanguageComponent } from './components/languages-list/language/language.component';
+import { LanguagesListComponent } from './components/languages-list/languages-list.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { getDatabase } from "firebase/database";
     RosesComponent,
     ContactComponent,
     AboutMeComponent,
+    LanguageComponent,
+    LanguagesListComponent,
   ],
   imports: [
     BrowserModule, 
