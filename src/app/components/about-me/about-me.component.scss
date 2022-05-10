@@ -1,3 +1,28 @@
-.myStory{
-    margin: 0px;
+.about-me-container{
+    padding-right: 50px;
+    padding-left: 50px;
+
+    .myStory{
+        display: grid;
+        grid-template-columns: .66fr .33fr;
+        margin-bottom: 25vh;
+    
+        .storyBody{
+            grid-column: 1;
+            display: relative;
+        }
+    
+        .imgBox{
+            img{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                float: right;
+                width: 70%;
+                grid-column: 2;
+            }
+    
+        }
+    }
+
 }

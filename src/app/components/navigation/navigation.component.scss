@@ -1,3 +1,6 @@
+$background-color: #173a34;
+$font-color: #99C1B7;
+
 .hamIcon{
     width: 20px;
     height: 1px;
@@ -11,13 +14,16 @@
       display: none;
   }
 
-  .currentPage{
-    background-color: yellow;
-  }
-
   .navigation{
     position: fixed;
-    margin-right: 30px;
+    margin-right: 50px;
+    width: 100%;
+    margin-top: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: $background-color;
+    z-index: 1;
+    padding: 0px;
   }
 
   @media only screen and (min-width: 768px){
@@ -26,14 +32,45 @@
       }
       .navigationMenu{
         display: flex;
-        justify-content: right;
-        margin-top: -10px;
+        border:0px;
+        padding-top: 10px;
+        margin-right: 0px;
+        justify-content: space-between;
+
+        .logos{
+          ul{
+            display: flex;
+          }
+        }
+        .resumeButton{
+          padding: 5px;
+          button{
+            margin-top: 0px;
+            
+          }
+        }
+
+        img{
+          // float: left;
+          padding-right: 30px;
+
+          width: 30px;
+          // position: absolute;
+          margin-left: 10px;
+        }
+        
       }
 
-      .navigationMenu ul li{
-        list-style: none;
-        float: right;
-      }
+      .navigationMenu ul {
+
+        
+        li{
+          // float: right;
+          list-style: none;
+          margin-right: 30px;
+          margin-top: 0px;
+        }
+    }
 
       @keyframes navigationLoad {
         from{

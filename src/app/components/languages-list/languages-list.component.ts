@@ -22,10 +22,10 @@ export class LanguagesListComponent implements OnInit {
     new Language("Angular", 
     "I have recently started learning Angular and have loved it! I've worked on a few projects in Angular (including this portfolio) and have...", 
     "imgURL"),
+    new Language(".NET", "I have built a couple of .NET project using C#. I found these projects incredibly exciting, although a little challenging. ", ""),
     new Language("Other", 
     "There are many other languages/tools that I have worked with. These include, but are not limited to: .NET, MongoDB, SQL, C#, C++, Java, and more.", 
     "imgURL"),
-    new Language("", "", ""),
   ]
 
   constructor() { }
